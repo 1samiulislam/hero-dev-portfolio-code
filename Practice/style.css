@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style  */
+
+/* font */
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+
+
+
+
+/* main style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    list-style: none;
+    
+}
+
+/* 
+justify-content = horizontal
+align-items     = vertical 
+*/
+
+nav ul a{
+    text-decoration: none;
+}
+
