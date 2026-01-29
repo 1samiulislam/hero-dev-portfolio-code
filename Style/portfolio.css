@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* body{
     background-color: aqua;
 } */
 
-                  /* Shared Style  */
+/* Shared Style  */
 
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
@@ -33,7 +34,7 @@
   cursor: pointer;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
 
@@ -60,13 +61,13 @@
   color: #757575;
 }
 
-
-#about, #skills, #resume {
+#about,
+#skills,
+#resume {
   padding-top: 130px;
 }
 
-
-              /* main style */
+/* main style */
 
 header {
   background-color: #fff8f3;
@@ -229,22 +230,21 @@ nav .menu a {
   box-shadow: 0px 6px 50px 0px #00000021;
 }
 
-
 #resume {
   /* padding-top: 130px; */
   /* margin-bottom: 113px; */
 }
 
-#resume .resume-container{
+#resume .resume-container {
   width: 80%;
   max-width: 1140px;
   /* margin: top R|L bottom */
-  margin:    113px auto 0;
+  margin: 113px auto 0;
   display: flex;
   gap: 24px;
 }
 
-.resume-container  .section-title{
+.resume-container .section-title {
   font-size: 30px;
   font-weight: bold;
   color: #474747;
@@ -253,43 +253,87 @@ nav .menu a {
 }
 
 /* .resume-container  */
-.resume-card{
+.resume-card {
   /* border: 1px solid red; */
   max-width: 511px;
   margin-right: 71px;
 }
 
-.resume-card .card-title{
-
+.resume-card .card-title {
   font-size: 25px;
   font-weight: bold;
   color: #474747;
   margin-bottom: 10px;
-
 }
 
-.resume-card .card-info{
-
+.resume-card .card-info {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #757575;
-
 }
 
-.resume-card .card-text{
-
+.resume-card .card-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   color: #757575;
-
 }
 
-.resume-container hr{
+.resume-container hr {
   margin: 30px 0px;
 }
 
-.text-center .btn{
+.text-center .btn {
   margin: 50px auto 113px;
+}
+
+footer {
+  background-color: #fff8f3;
+  padding: 130px 0px;
+}
+
+.footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 90px;
+}
+
+.footer-container .social {
+  max-width: 562px;
+}
+
+.footer-container h2 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .social p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.footer-container .icon a {
+  margin-right: 24px;
+  max-width: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+  width: 461px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  padding: 18px 31px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 24px;
 }
